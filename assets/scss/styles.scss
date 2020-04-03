@@ -1,0 +1,13 @@
+//  base file
+@import "base/index";
+
+// Vendor base and component style import
+@import 'vendor/bootstrap-base';
+
+@import 'vendor/bootstrap-components';
+
+// components file
+@import "components/index";
+
+// layout file
+@import "layout/index";

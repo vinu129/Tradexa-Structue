@@ -1,0 +1,32 @@
+.sec-1{
+  background-color: floralwhite;
+}
+.sec-2{
+  background-color: white;
+  height: 100%;
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
+  .content-footer{
+    background-color:black;
+    color: white;
+    padding: 5px 40px;
+  }
+  .form{
+    width: 300px;
+  }
+  .form-group{
+    margin-bottom: 0.6rem;
+    label{
+      margin-bottom: 0.2rem;
+      font-size: 14px;
+    }
+    input{
+      border: 1px solid #cccccc;
+    }
+  }
+ .btn-color{
+   background-color: orangered;
+   color: white;
+ }
+}
